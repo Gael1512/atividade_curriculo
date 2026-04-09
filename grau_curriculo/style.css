@@ -1,0 +1,220 @@
+
+/* AREA DE NAVEGAÇÃO*/
+
+
+
+.navegador-pagina{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: -80px;
+    padding-right: 20px;
+    position: fixed;
+    
+}
+
+.navegador-pagina ul{
+    list-style: none;
+}
+
+.navegador-pagina li{
+    margin: -15px 0;
+    display: inline-block;
+    transition: background-color 0.3 ease;
+    padding: 35px 50px;
+    
+}
+
+.navegador-pagina li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* AREA DE NAVEGAÇÃO*/
+
+/* CORPO NO GERAL */
+
+.meu-body{
+    background-color: grey;
+    color: black;
+    margin: 0;
+}
+
+/* CORPO NO GERAL */
+
+/* FOTO */
+
+.minha-foto{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    padding: 100px;
+}
+
+.minha-foto img{
+    border-radius: 20%;
+}
+
+/* FOTO */
+
+/* AREA DO NOME */
+
+.parte-do-nome{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin: 50px 50px;
+    border-radius: 20%;
+}
+
+.parte-do-nome h1,h3{
+    padding: 20px 20px;
+}
+
+.parte-do-nome h1{
+    padding-top: 40px;
+}
+
+.parte-do-nome h3{
+    padding-bottom: 40px;
+}
+
+/* AREA DO NOME */
+
+/* AREA DA IDADE */
+
+.minha-idade{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin: 80px 50px;
+    border-radius: 20%;
+}
+
+.minha-idade h1,h3,p{
+    padding: 20px 20px;
+}
+
+.minha-idade h1{
+    padding-top: 40px;
+}
+
+.minha-idade h3,p{
+    padding-bottom: 40px;
+}
+
+.minha-idade h3{
+    padding-top: 50px;
+}
+
+/* AREA DA IDADE */ 
+
+/* AREA DO CURSO */
+
+.meu-curso{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin: 80px 50px;
+    border-radius: 20%;
+}
+
+.meu-curso img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.meu-curso h1, p{
+    padding: 50px 20px;
+}
+
+.meu-curso p{
+    padding-bottom: 50px;
+}
+
+/* AREA DO CURSO */
+
+/* AREA DO JA APRENDI */
+
+.ja-aprendi{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin: 80px 50px;
+    border-radius: 20%;
+}
+
+.ja-aprendi h1,h3,li{
+    padding: 20px 20px;
+}
+
+.ja-aprendi li{
+    margin: 0;
+    padding: 20px 0;
+    padding-bottom: 60px;
+    
+}
+
+/* AREA DO JA APRENDI */
+
+/* AREA DO QUERO APRENDER */
+
+.quero-aprender{
+    background-color: black;
+    color: white;
+    justify-self: center;
+    text-align: center;
+    margin: 80px 50px;
+    border-radius: 20%; 
+}
+
+.quero-aprender h1, h3, li{
+    padding: 20px 20px;
+}
+
+.quero-aprender ul{
+    list-style: none;
+}
+
+.quero-aprender img{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+/* AREA DO QUERO APRENDER */
+
+/* FOOTER */
+
+.fim-pagina{
+    background-color: black;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.fim-pagina ul{
+    list-style: none;
+}
+
+.fim-pagina li{
+    display: inline-block;
+    margin: 20px 20px;
+    padding-bottom: 50px;
+}
+
+/* FOOTER */
